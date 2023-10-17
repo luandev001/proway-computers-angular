@@ -7,7 +7,6 @@ import { IProduto, produtos } from './produtos';
 export class ProdutosService {
 
   produtos: IProduto[] = produtos;
-
   constructor() { }
 
   getAll() {
